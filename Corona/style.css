@@ -1,0 +1,41 @@
+.corona {
+    margin: 80px;
+    border-top:  solid 160px #EBBB30;
+    border-left: solid 25px transparent;
+    border-right:  solid 25px transparent;
+    width: 220px;
+    position: relative;
+}
+
+.picos {
+    position: absolute;
+    width: 90px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff;
+    top: -240px;
+    left: -25px;
+    box-shadow: 90px 0, 180px 0;
+
+}
+
+.base {
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background-color: #EBBB30;
+    bottom: -25px;
+}
+
+.circulos {
+    position: absolute;
+    top: -150px;
+    left: -30px;
+    background-color: #EBBB30;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 85px -17px, 175px -17px, 260px 0;
+    color: #EBBB30;
+}
